@@ -3,7 +3,8 @@ param(
     [switch]$Build,
     [switch]$Detach,
     [switch]$SkipOllamaCreate,
-    [string]$OllamaModelName = "question-rewriter-qwen3-0.6b",
+    [string]$OutputModelName = "question-rewriter-qwen3-0.6b",
+    [string]$OllamaModelName,
     [string]$OllamaContainerName = "question-rewriter-ollama",
     [string]$OllamaServiceName = "ollama"
 )
@@ -11,7 +12,11 @@ param(
 $ErrorActionPreference = "Stop"
 
 $repoRoot = $PSScriptRoot
-$outputDir = Join-Path $repoRoot "outputs\question-rewriter-qwen3-0.6b"
+if (-not $OllamaModelName) {
+    $OllamaModelName = $outputModelName
+}
+
+$outputDir = Join-Path $repoRoot ("outputs\" + $outputModelName)
 $modelfilePath = Join-Path $outputDir "Modelfile"
 $composeArgs = @("compose", "up")
 

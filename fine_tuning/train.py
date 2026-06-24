@@ -91,7 +91,7 @@ def main() -> None:
     LOGGER.info("Loaded %s training examples", len(records))
 
     model, tokenizer = FastLanguageModel.from_pretrained(
-        model_name=CONFIG.model_name,
+        model_name=CONFIG.base_model_name,
         max_seq_length=CONFIG.max_seq_length,
         dtype=None,
         load_in_4bit=True,

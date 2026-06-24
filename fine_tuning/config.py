@@ -5,8 +5,9 @@ from pathlib import Path
 @dataclass(frozen=True)
 class TrainingConfig:
     training_data_path: Path = Path("/workspace/data/training-questions.json")
-    output_dir: Path = Path("/workspace/outputs/question-rewriter-qwen3-0.6b")
-    model_name: str = "unsloth/Qwen3-0.6B-bnb-4bit"
+    output_model_prefix: str = "question-rewriter"
+    base_model_slug: str = "qwen3-0.6b"
+    base_model_name: str = "unsloth/Qwen3-0.6B-bnb-4bit"
     max_seq_length: int = 2048
     per_device_train_batch_size: int = 2
     gradient_accumulation_steps: int = 4
@@ -21,6 +22,14 @@ class TrainingConfig:
     seed: int = 3407
     ollama_gguf_quantization: str = "Q4_K_M"
     log_level: str = "INFO"
+
+    @property
+    def output_model_name(self) -> str:
+        return f"{self.output_model_prefix}-{self.base_model_slug}"
+
+    @property
+    def output_dir(self) -> Path:
+        return Path("/workspace/outputs") / self.output_model_name
 
 
 CONFIG = TrainingConfig()
