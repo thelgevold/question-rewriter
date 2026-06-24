@@ -1,0 +1,36 @@
+services:
+  ollama:
+    image: ollama/ollama:0.30.10
+    container_name: question-rewriter-ollama
+    ports:
+      - "11436:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    tty: true
+
+  fine-tuning:
+    build:
+      context: .
+      dockerfile: fine_tuning/Dockerfile
+    container_name: question-rewriter-fine-tuning
+    working_dir: /workspace
+    user: "0:0"
+    volumes:
+      - ./:/workspace
+      - huggingface-cache:/root/.cache/huggingface
+      - unsloth-cache:/root/.cache/unsloth
+      - unsloth-llama-cpp:/root/.unsloth
+    environment:
+      HF_HOME: /root/.cache/huggingface
+      UNSLOTH_LLAMA_CPP_PATH: /root/.unsloth/llama.cpp
+    entrypoint: ["python", "-m", "fine_tuning.train"]
+    gpus: all
+    shm_size: "16gb"
+    tty: true
+    stdin_open: true
+
+volumes:
+  huggingface-cache:
+  unsloth-cache:
+  unsloth-llama-cpp:
+  ollama-data:

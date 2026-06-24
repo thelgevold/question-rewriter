@@ -1,0 +1,19 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we last service the gate"
+      },
+      {
+        "role": "assistant",
+        "content": "The gate was last serviced on 2026-06-18 by Garage & Gate Experts."
+      },
+      {
+        "role": "user",
+        "content": "What did they do"
+      }
+    ],
+    "rewrite": "What work was completed when Garage & Gate Experts serviced the gate on 2026-06-18?"
+  }
+]
