@@ -7,13 +7,3176 @@
       },
       {
         "role": "assistant",
-        "content": "The gate was last serviced on 2026-06-18 by Garage & Gate Experts."
+        "content": "We last serviced the gate on 2026-06-18."
       },
       {
         "role": "user",
-        "content": "What did they do"
+        "content": "what did they do"
       }
     ],
-    "rewrite": "What work was completed when Garage & Gate Experts serviced the gate on 2026-06-18?"
+    "rewrite": "What work was completed when we serviced the gate on 2026-06-18?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the refrigerator ice maker"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the refrigerator ice maker on 2025-02-14."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the refrigerator ice maker and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the dishwasher drain pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the dishwasher drain pump on 2024-09-09."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the dishwasher drain pump and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the new microwave"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the new microwave on 2023-11-03."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $525."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the new microwave? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the cracked front brick steps"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the cracked front brick steps on 2025-03-20."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the cracked front brick steps and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repoint the chimney brick"
+      },
+      {
+        "role": "assistant",
+        "content": "We repointed the chimney brick on 2024-10-08."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we repoint the chimney brick and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we rebuild the mailbox brick column"
+      },
+      {
+        "role": "assistant",
+        "content": "We rebuilt the mailbox brick column on 2023-06-27."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $980."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we rebuild the mailbox brick column? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the car battery"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the car battery on 2025-01-12."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we replace the car battery and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the air conditioning in the car"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the air conditioning in the car on 2024-07-18."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we repair the air conditioning in the car and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the dash camera in the car"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the dash camera in the car on 2023-08-04."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $360."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the dash camera in the car? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the gas cooktop igniter"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the gas cooktop igniter on 2025-04-05."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the gas cooktop igniter and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the wall oven control board"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the wall oven control board on 2024-05-16."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we replace the wall oven control board and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the range hood"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the range hood on 2023-12-11."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $845."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      }
+    ],
+    "rewrite": "When did we install the range hood? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the doorbell transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the doorbell transformer on 2025-03-01."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we replace the doorbell transformer and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the video doorbell wiring"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the video doorbell wiring on 2024-08-29."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we repair the video doorbell wiring and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the smart doorbell"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the smart doorbell on 2023-10-02."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $315."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the smart doorbell? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we upgrade the electrical panel"
+      },
+      {
+        "role": "assistant",
+        "content": "We upgraded the electrical panel on 2025-02-21."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we upgrade the electrical panel and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the outlet in the guest room"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the outlet in the guest room on 2024-04-17."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we repair the outlet in the guest room and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the generator transfer switch"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the generator transfer switch on 2023-09-06."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,620."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the generator transfer switch? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the side yard fence gate"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the side yard fence gate on 2025-05-13."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the side yard fence gate and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the back fence posts"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the back fence posts on 2024-11-19."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the back fence posts and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the cedar privacy fence"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the cedar privacy fence on 2023-05-22."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $4,950."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we install the cedar privacy fence? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the fountain pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the fountain pump on 2025-04-26."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the fountain pump and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the fountain light transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the fountain light transformer on 2024-06-12."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we replace the fountain light transformer and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the backyard fountain basin"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the backyard fountain basin on 2023-07-14."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $2,280."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the backyard fountain basin? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the garden light wiring"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the garden light wiring on 2025-03-28."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the garden light wiring and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the garden light transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the garden light transformer on 2024-09-03."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the garden light transformer and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install new garden path lights"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed new garden path lights on 2023-10-19."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,140."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we install new garden path lights? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the gutter downspout at the back corner"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the gutter downspout at the back corner on 2025-01-30."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the gutter downspout at the back corner and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the gutters on the garage"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the gutters on the garage on 2024-03-25."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we replace the gutters on the garage and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the leaf guard on the gutters"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the leaf guard on the gutters on 2023-11-15."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $2,050."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      }
+    ],
+    "rewrite": "When did we install the leaf guard on the gutters? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the upstairs ac condenser"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the upstairs AC condenser on 2025-05-02."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the upstairs AC condenser and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the furnace control board"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the furnace control board on 2024-12-07."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the furnace control board and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the new hvac system"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the new HVAC system on 2023-08-31."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $9,850."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the new HVAC system? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the broken sprinkler valve"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the broken sprinkler valve on 2025-04-09."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the broken sprinkler valve and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the irrigation controller"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the irrigation controller on 2024-07-02."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we replace the irrigation controller and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the drip irrigation zones"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the drip irrigation zones on 2023-09-21."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,760."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we install the drip irrigation zones? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we refill the mosquito misting system"
+      },
+      {
+        "role": "assistant",
+        "content": "We refilled the mosquito misting system on 2025-05-21."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we refill the mosquito misting system and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the mosquito control nozzles"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the mosquito control nozzles on 2024-06-06."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we repair the mosquito control nozzles and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the mosquito misting system"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the mosquito misting system on 2023-04-28."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $2,690."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      }
+    ],
+    "rewrite": "When did we install the mosquito misting system? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repaint the living room walls"
+      },
+      {
+        "role": "assistant",
+        "content": "We repainted the living room walls on 2025-02-11."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repaint the living room walls and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair and repaint the exterior trim"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired and repainted the exterior trim on 2024-10-24."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we repair and repaint the exterior trim and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we paint the kitchen cabinets"
+      },
+      {
+        "role": "assistant",
+        "content": "We painted the kitchen cabinets on 2023-07-07."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $3,420."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we paint the kitchen cabinets? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the pool filter"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the pool filter on 2025-03-14."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the pool filter and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pool booster pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pool booster pump on 2024-08-15."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the pool booster pump and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the pool heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the pool heater on 2023-05-30."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $4,280."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we install the pool heater? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we trim the oak tree over the driveway"
+      },
+      {
+        "role": "assistant",
+        "content": "We trimmed the oak tree over the driveway on 2025-01-18."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we trim the oak tree over the driveway and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we remove the dead ash tree"
+      },
+      {
+        "role": "assistant",
+        "content": "We removed the dead ash tree on 2024-02-23."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we remove the dead ash tree and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we grind the stump in the backyard"
+      },
+      {
+        "role": "assistant",
+        "content": "We ground the stump in the backyard on 2023-11-28."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $340."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we grind the stump in the backyard? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the water heater expansion tank"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the water heater expansion tank on 2025-04-01."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the water heater expansion tank and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the water heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the water heater on 2024-09-14."
+      },
+      {
+        "role": "user",
+        "content": "what did we pay"
+      }
+    ],
+    "rewrite": "When did we replace the water heater and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the tankless water heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the tankless water heater on 2023-06-09."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $4,760."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we install the tankless water heater? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the fogged upstairs window"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the fogged upstairs window on 2025-02-06."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we repair the fogged upstairs window and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the broken patio window pane"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the broken patio window pane on 2024-07-27."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      }
+    ],
+    "rewrite": "When did we replace the broken patio window pane and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the solar screens on the windows"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the solar screens on the windows on 2023-08-18."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,420."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the solar screens on the windows? Who completed the work, and how much did it cost?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the washing machine drain hose"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the washing machine drain hose on 2024-12-03."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we repair the washing machine drain hose, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the cracked brick border by the flower bed"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the cracked brick border by the flower bed on 2024-04-09."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the cracked brick border by the flower bed, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the front brake pads on the car"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the front brake pads on the car on 2025-03-08."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we replace the front brake pads on the car, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the double oven door hinge"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the double oven door hinge on 2024-11-21."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the double oven door hinge on 2024-11-21?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the doorbell chime box"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the doorbell chime box on 2025-01-16."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we replace the doorbell chime box, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the whole home surge protector"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the whole home surge protector on 2024-06-14."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      }
+    ],
+    "rewrite": "When did we install the whole home surge protector, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the fence latch by the pool equipment"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the fence latch by the pool equipment on 2025-02-27."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the fence latch by the pool equipment, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we clean out the fountain lines"
+      },
+      {
+        "role": "assistant",
+        "content": "We cleaned out the fountain lines on 2024-08-08."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we clean out the fountain lines, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the transformer for the front garden lights"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the transformer for the front garden lights on 2025-04-18."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we replace the transformer for the front garden lights, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we reseal the gutter joints above the patio"
+      },
+      {
+        "role": "assistant",
+        "content": "We resealed the gutter joints above the patio on 2024-10-10."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we resealed the gutter joints above the patio on 2024-10-10?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the blower motor in the furnace"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the blower motor in the furnace on 2025-01-09."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we replace the blower motor in the furnace, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we add a new drip line to the side yard irrigation"
+      },
+      {
+        "role": "assistant",
+        "content": "We added a new drip line to the side yard irrigation on 2024-05-29."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we add a new drip line to the side yard irrigation, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the mosquito misting control module"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the mosquito misting control module on 2025-02-04."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      }
+    ],
+    "rewrite": "When did we replace the mosquito misting control module, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repaint the front door and trim"
+      },
+      {
+        "role": "assistant",
+        "content": "We repainted the front door and trim on 2024-09-12."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we repaint the front door and trim, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pool salt cell"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pool salt cell on 2025-05-06."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the pool salt cell on 2025-05-06?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we prune the crepe myrtles in the front yard"
+      },
+      {
+        "role": "assistant",
+        "content": "We pruned the crepe myrtles in the front yard on 2024-03-19."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we prune the crepe myrtles in the front yard, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we flush the water heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We flushed the water heater on 2025-02-22."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we flush the water heater, and who completed the work?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we reseal the upstairs window frames"
+      },
+      {
+        "role": "assistant",
+        "content": "We resealed the upstairs window frames on 2024-11-05."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we reseal the upstairs window frames, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the freezer door seal"
+      },
+      {
+        "role": "assistant",
+        "content": "Appliance Rescue completed the repair on the freezer door seal."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $215."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the repair on the freezer door seal, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the rebuild of the front walkway brick steps"
+      },
+      {
+        "role": "assistant",
+        "content": "Heritage Masonry completed the rebuild of the front walkway brick steps."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,480."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the rebuild of the front walkway brick steps, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the alternator in the car"
+      },
+      {
+        "role": "assistant",
+        "content": "Northside Auto Care completed the replacement of the alternator in the car."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $690."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the alternator in the car, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the induction cooktop"
+      },
+      {
+        "role": "assistant",
+        "content": "KitchenPro Installations completed the installation of the induction cooktop."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,150."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the installation of the induction cooktop, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the smart doorbell wiring"
+      },
+      {
+        "role": "assistant",
+        "content": "Safe Entry Systems completed the repair on the smart doorbell wiring."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $185."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the repair on the smart doorbell wiring, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the upgrade to the garage subpanel"
+      },
+      {
+        "role": "assistant",
+        "content": "BrightLine Electric completed the upgrade to the garage subpanel."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,340."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the upgrade to the garage subpanel, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the backyard fence posts"
+      },
+      {
+        "role": "assistant",
+        "content": "Lone Star Fencing completed the replacement of the backyard fence posts."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $2,040."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the backyard fence posts, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the fountain recirculation pump"
+      },
+      {
+        "role": "assistant",
+        "content": "Water Garden Specialists completed the repair on the fountain recirculation pump."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $420."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the repair on the fountain recirculation pump, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the low voltage garden uplights"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the installation of the low voltage garden uplights."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,260."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the installation of the low voltage garden uplights, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the clogged gutter downspouts"
+      },
+      {
+        "role": "assistant",
+        "content": "ClearFlow Gutters completed the replacement of the clogged gutter downspouts."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $560."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the clogged gutter downspouts, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the upstairs evaporator coil"
+      },
+      {
+        "role": "assistant",
+        "content": "Comfort Air Services completed the replacement of the upstairs evaporator coil."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $2,280."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the upstairs evaporator coil, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the new sprinkler controller"
+      },
+      {
+        "role": "assistant",
+        "content": "GreenLine Irrigation completed the installation of the new sprinkler controller."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $640."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the installation of the new sprinkler controller, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the refill of the mosquito misting system"
+      },
+      {
+        "role": "assistant",
+        "content": "Mosquito Shield completed the refill of the mosquito misting system."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $175."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the refill of the mosquito misting system, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repainting of the exterior shutters"
+      },
+      {
+        "role": "assistant",
+        "content": "Fresh Coat Painters completed the repainting of the exterior shutters."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $930."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the repainting of the exterior shutters, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the pool automation panel"
+      },
+      {
+        "role": "assistant",
+        "content": "Blue Horizon Pool Service completed the replacement of the pool automation panel."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,870."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the pool automation panel, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the removal of the storm damaged pine tree"
+      },
+      {
+        "role": "assistant",
+        "content": "Canopy Tree Care completed the removal of the storm damaged pine tree."
+      },
+      {
+        "role": "user",
+        "content": "what did that cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,120."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the removal of the storm damaged pine tree, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the tankless water heater"
+      },
+      {
+        "role": "assistant",
+        "content": "Hot Water Pros completed the installation of the tankless water heater."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $4,760."
+      },
+      {
+        "role": "user",
+        "content": "when did we do that"
+      }
+    ],
+    "rewrite": "Who completed the installation of the tankless water heater, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the fogged dining room window"
+      },
+      {
+        "role": "assistant",
+        "content": "Clear View Window Service completed the repair on the fogged dining room window."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $310."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the repair on the fogged dining room window, how much did it cost, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the garage door opener"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the garage door opener on 2025-03-11."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the garage door opener on 2025-03-11?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the pool pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the pool pump on 2024-07-09."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the pool pump on 2024-07-09?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the driveway gate hinge"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the driveway gate hinge on 2025-01-23."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the driveway gate hinge on 2025-01-23?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the fountain spillway"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the fountain spillway on 2024-10-18."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the fountain spillway on 2024-10-18?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pool salt cell"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pool salt cell on 2025-05-06."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the pool salt cell on 2025-05-06?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the backflow preventer"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the backflow preventer on 2025-03-07."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $295."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the backflow preventer, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the garage weather stripping"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the garage weather stripping on 2024-10-21."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $180."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the garage weather stripping, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the outdoor flood light"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the outdoor flood light on 2025-01-14."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "BrightLine Electric completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the outdoor flood light, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the patio screen door rollers"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the patio screen door rollers on 2024-08-26."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "HomeFix Services completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the patio screen door rollers, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the garage attic ladder"
+      },
+      {
+        "role": "assistant",
+        "content": "Handy Home Services completed the replacement of the garage attic ladder."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the garage attic ladder, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the landscape drain"
+      },
+      {
+        "role": "assistant",
+        "content": "Drainage Solutions completed the repair on the landscape drain."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the repair on the landscape drain, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the laundry cabinet"
+      },
+      {
+        "role": "assistant",
+        "content": "Crafted Interiors completed the installation of the laundry cabinet."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the installation of the laundry cabinet, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the driveway gate motor"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the driveway gate motor on 2025-02-18."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the driveway gate motor on 2025-02-18?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the patio drain"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the patio drain on 2024-09-30."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the patio drain on 2024-09-30?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the laundry room faucet"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the laundry room faucet on 2025-01-07."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $210."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the laundry room faucet, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the garden retaining wall"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the garden retaining wall on 2024-11-08."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Stonecraft Masonry completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the garden retaining wall, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the mudroom bench"
+      },
+      {
+        "role": "assistant",
+        "content": "Crafted Interiors completed the installation of the mudroom bench."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the installation of the mudroom bench, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the side yard drain line"
+      },
+      {
+        "role": "assistant",
+        "content": "Drainage Solutions completed the repair on the side yard drain line."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the repair on the side yard drain line, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the closet light fixture"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the closet light fixture on 2025-03-25."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the closet light fixture on 2025-03-25?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the backup generator"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the backup generator on 2025-02-05."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the backup generator on 2025-02-05?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the driveway drain"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the driveway drain on 2024-11-14."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the driveway drain on 2024-11-14?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the patio misting nozzle line"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the patio misting nozzle line on 2024-08-20."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the patio misting nozzle line on 2024-08-20?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the new attic ladder"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the new attic ladder on 2025-01-19."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we installed the new attic ladder on 2025-01-19?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the front gate opener"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the front gate opener on 2024-10-02."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the front gate opener on 2024-10-02?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the guest bathroom exhaust fan"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the guest bathroom exhaust fan on 2025-03-12."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $185."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the guest bathroom exhaust fan, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the laundry shutoff valves"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the laundry shutoff valves on 2024-12-16."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $260."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the laundry shutoff valves, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the courtyard fountain timer"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the courtyard fountain timer on 2025-04-03."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $340."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we install the courtyard fountain timer, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the side gate latch"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the side gate latch on 2024-09-11."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "HomeFix Services completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the side gate latch, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the sprinkler manifold"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the sprinkler manifold on 2025-02-27."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "GreenLine Irrigation completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the sprinkler manifold, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the under sink water filter"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the under sink water filter on 2024-07-23."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Precision Plumbing completed the installation."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we install the under sink water filter, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the foyer chandelier"
+      },
+      {
+        "role": "assistant",
+        "content": "BrightLine Electric completed the replacement of the foyer chandelier."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the foyer chandelier, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the pool autofill valve"
+      },
+      {
+        "role": "assistant",
+        "content": "Blue Horizon Pool Service completed the repair on the pool autofill valve."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the repair on the pool autofill valve, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the office built in shelves"
+      },
+      {
+        "role": "assistant",
+        "content": "Crafted Interiors completed the installation of the office built in shelves."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the installation of the office built in shelves, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the front walkway lighting circuit"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair on the front walkway lighting circuit."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the repair on the front walkway lighting circuit, and when was it done?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the hot tub heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the hot tub heater on 2024-06-18."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the hot tub heater on 2024-06-18?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the pergola post base"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the pergola post base on 2025-03-29."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the pergola post base on 2025-03-29?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the mudroom bench hooks"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the mudroom bench hooks on 2024-12-09."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the mudroom bench hooks on 2024-12-09?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the garage storage rack"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the garage storage rack on 2025-01-31."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we installed the garage storage rack on 2025-01-31?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the front porch column"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the front porch column on 2024-09-05."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Heritage Carpentry completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the front porch column, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the side yard pergola lights"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the side yard pergola lights on 2024-07-11."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the side yard pergola lights, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the courtyard landscape transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the courtyard landscape transformer on 2025-03-06."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the courtyard landscape transformer, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the side yard pergola lights"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair on the side yard pergola lights."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "Who completed the repair on the side yard pergola lights, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the retaining wall lights"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair on the retaining wall lights."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "Who completed the repair on the retaining wall lights, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the front gate keypad"
+      },
+      {
+        "role": "assistant",
+        "content": "Access Control Pros completed the repair on the front gate keypad."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "Who completed the repair on the front gate keypad, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the pool pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the pool pump on 2024-07-09."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the pool pump on 2024-07-09?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the landscape lighting transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the landscape lighting transformer on 2025-02-26."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the landscape lighting transformer on 2025-02-26?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the patio drain"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the patio drain on 2024-09-30."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the patio drain on 2024-09-30?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the brick mailbox cap"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the brick mailbox cap on 2024-10-17."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the brick mailbox cap on 2024-10-17?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the sink basket strainer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the sink basket strainer on 2024-12-12."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "Precision Plumbing completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the sink basket strainer, who completed the work, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the outdoor spigot"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the outdoor spigot on 2025-04-16."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $240."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the outdoor spigot, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pool salt cell"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pool salt cell on 2025-05-06."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the pool salt cell on 2025-05-06?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the closet light fixture"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the closet light fixture on 2025-03-25."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the closet light fixture on 2025-03-25?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we reseal the gutter joints above the patio"
+      },
+      {
+        "role": "assistant",
+        "content": "We resealed the gutter joints above the patio on 2024-10-10."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we resealed the gutter joints above the patio on 2024-10-10?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the courtyard fountain timer"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the courtyard fountain timer on 2025-04-03."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $340."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we install the courtyard fountain timer, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the under cabinet kitchen lights"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the under cabinet kitchen lights on 2024-11-06."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $410."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the under cabinet kitchen lights, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the outdoor faucet shutoff"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the outdoor faucet shutoff on 2025-02-13."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $175."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the outdoor faucet shutoff, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the upstairs mini split"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the upstairs mini split on 2024-09-09."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the upstairs mini split on 2024-09-09?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the front walkway pavers"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the front walkway pavers on 2024-08-01."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the front walkway pavers on 2024-08-01?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pantry cabinet hinges"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pantry cabinet hinges on 2025-01-22."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we replaced the pantry cabinet hinges on 2025-01-22?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the garage wall cabinets"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the garage wall cabinets on 2024-12-03."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "What work was completed when we installed the garage wall cabinets on 2024-12-03?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the courtyard landscape transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the courtyard landscape transformer on 2025-03-06."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $420."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we replace the courtyard landscape transformer, who completed the work, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the patio heater"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the patio heater on 2024-11-21."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Outdoor Living Pros completed the installation."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $1,180."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we install the patio heater, who completed the work, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the front walkway lighting circuit"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the front walkway lighting circuit on 2025-02-24."
+      },
+      {
+        "role": "user",
+        "content": "who handled it"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $265."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the front walkway lighting circuit, who completed the work, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the pool autofill assembly"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the pool autofill assembly on 2024-08-14."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "Blue Horizon Pool Service completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $540."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the pool autofill assembly, who completed the work, how much did it cost, and what work was completed?"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the pergola fan"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the pergola fan on 2025-01-10."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "HomeFix Services completed the service."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $145."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we service the pergola fan, who completed the work, how much did it cost, and what work was completed?"
   }
 ]

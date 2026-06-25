@@ -7,3 +7,5 @@ bitsandbytes>=0.43.3
 safetensors>=0.4.5
 sentencepiece>=0.2.0
 huggingface-hub>=0.24.6
+scikit-learn>=1.5.1
+sentence-transformers>=3.0.1

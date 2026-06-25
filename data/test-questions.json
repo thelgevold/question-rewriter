@@ -1,0 +1,413 @@
+[
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> cost",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the attic exhaust fan"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the attic exhaust fan on 2025-01-28."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we replace the attic exhaust fan and how much did it cost?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> cost -> who",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we install the driveway security camera"
+      },
+      {
+        "role": "assistant",
+        "content": "We installed the driveway security camera on 2024-09-17."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $640."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      }
+    ],
+    "rewrite": "When did we install the driveway security camera? Who completed the work, and how much did it cost?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> who",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the patio ceiling fan"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the patio ceiling fan on 2025-03-03."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      }
+    ],
+    "rewrite": "When did we replace the patio ceiling fan, and who completed the work?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the sump pump"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the sump pump on 2024-11-13."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we serviced the sump pump on 2024-11-13?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: who -> cost -> when",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the laundry room sink"
+      },
+      {
+        "role": "assistant",
+        "content": "Precision Plumbing completed the installation of the laundry room sink."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $890."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      }
+    ],
+    "rewrite": "Who completed the installation of the laundry room sink, how much did it cost, and when was it done?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: when -> who -> cost",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the hallway smoke detectors"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the hallway smoke detectors on 2025-02-12."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "BrightLine Electric completed the work."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we replace the hallway smoke detectors? Who completed the work, and how much did it cost?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: who -> when -> cost",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the garage keypad"
+      },
+      {
+        "role": "assistant",
+        "content": "Access Control Pros completed the repair on the garage keypad."
+      },
+      {
+        "role": "user",
+        "content": "when was it done"
+      },
+      {
+        "role": "assistant",
+        "content": "It was done on 2024-08-22."
+      },
+      {
+        "role": "user",
+        "content": "what did it cost"
+      }
+    ],
+    "rewrite": "Who completed the repair on the garage keypad, when was it done, and how much did it cost?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: when -> cost -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the outdoor spigot"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the outdoor spigot on 2025-04-16."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $240."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we repair the outdoor spigot, how much did it cost, and what work was completed?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: when -> who -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the balcony railing"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the balcony railing on 2024-10-04."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Metro Metal Works completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the balcony railing, who completed the work, and what work was completed?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: who -> when",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the replacement of the pantry light fixture"
+      },
+      {
+        "role": "assistant",
+        "content": "BrightLine Electric completed the replacement of the pantry light fixture."
+      },
+      {
+        "role": "user",
+        "content": "when was that"
+      }
+    ],
+    "rewrite": "Who completed the replacement of the pantry light fixture, and when was it done?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the garage side door closer"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the garage side door closer on 2025-01-15."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "What work was completed when we repaired the garage side door closer on 2025-01-15?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> cost -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the sink basket strainer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the sink basket strainer on 2024-12-12."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $95."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the sink basket strainer, how much did it cost, and what work was completed?"
+  },
+  {
+    "test_group": "same_pattern_generalization",
+    "pattern_note": "seen pattern: when -> who -> what-work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we repair the front porch column"
+      },
+      {
+        "role": "assistant",
+        "content": "We repaired the front porch column on 2024-09-05."
+      },
+      {
+        "role": "user",
+        "content": "who completed it"
+      },
+      {
+        "role": "assistant",
+        "content": "Heritage Carpentry completed the repair."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "When did we repair the front porch column, who completed the work, and what work was completed?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: when -> work -> cost",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we service the outdoor fireplace"
+      },
+      {
+        "role": "assistant",
+        "content": "We serviced the outdoor fireplace on 2024-10-28."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      },
+      {
+        "role": "assistant",
+        "content": "The burner assembly was cleaned and the igniter was adjusted."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "When did we service the outdoor fireplace, what work was completed, and how much did it cost?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: who -> work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the repair on the side yard pergola lights"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the repair on the side yard pergola lights."
+      },
+      {
+        "role": "user",
+        "content": "what did they do"
+      }
+    ],
+    "rewrite": "Who completed the repair on the side yard pergola lights, and what work was completed?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: who -> cost",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who completed the installation of the pantry pull out shelves"
+      },
+      {
+        "role": "assistant",
+        "content": "Crafted Interiors completed the installation of the pantry pull out shelves."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      }
+    ],
+    "rewrite": "Who completed the installation of the pantry pull out shelves, and how much did it cost?"
+  },
+  {
+    "test_group": "held_out_pattern",
+    "pattern_note": "unseen pattern: when -> who -> cost -> work",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did we replace the courtyard landscape transformer"
+      },
+      {
+        "role": "assistant",
+        "content": "We replaced the courtyard landscape transformer on 2025-03-06."
+      },
+      {
+        "role": "user",
+        "content": "who did it"
+      },
+      {
+        "role": "assistant",
+        "content": "Evening Glow Outdoor Lighting completed the replacement."
+      },
+      {
+        "role": "user",
+        "content": "how much did it cost"
+      },
+      {
+        "role": "assistant",
+        "content": "It cost $420."
+      },
+      {
+        "role": "user",
+        "content": "what work was done"
+      }
+    ],
+    "rewrite": "When did we replace the courtyard landscape transformer, who completed the work, how much did it cost, and what work was completed?"
+  }
+]
