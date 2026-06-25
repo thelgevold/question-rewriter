@@ -9,3 +9,4 @@ sentencepiece>=0.2.0
 huggingface-hub>=0.24.6
 scikit-learn>=1.5.1
 sentence-transformers>=3.0.1
+llama-index-llms-ollama>=0.6.0

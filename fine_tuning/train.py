@@ -17,7 +17,7 @@ from trl import SFTConfig, SFTTrainer
 from unsloth import FastLanguageModel
 
 from fine_tuning.config import CONFIG
-from fine_tuning.handlers.ollama_handler import export_for_ollama
+from fine_tuning.handlers.ollama_handler import export_gguf_for_ollama, save_adapter_and_merged
 from fine_tuning.prompts import SYSTEM_PROMPT, USER_TASK_INTRO
 
 
@@ -246,6 +246,17 @@ def build_prediction_report(
     }
 
 
+def load_merged_export_model(merged_dir: Path) -> tuple[Any, Any]:
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name=str(merged_dir),
+        max_seq_length=CONFIG.max_seq_length,
+        dtype=None,
+        load_in_4bit=False,
+    )
+    FastLanguageModel.for_inference(model)
+    return model, tokenizer
+
+
 def main() -> None:
     logging.basicConfig(
         level=CONFIG.log_level.upper(),
@@ -357,17 +368,30 @@ def main() -> None:
     LOGGER.info("Saved eval predictions to %s", reports_dir / "eval_predictions.json")
     LOGGER.info("Saved test predictions to %s", reports_dir / "test_predictions.json")
 
-    adapter_output_dir = output_dir / "adapter"
-    trainer.model.save_pretrained(str(adapter_output_dir))
-    tokenizer.save_pretrained(str(adapter_output_dir))
     trainer.save_state()
 
-    export_for_ollama(
+    export_paths = save_adapter_and_merged(
         model=trainer.model,
         tokenizer=tokenizer,
         export_root=output_dir,
+        export_base_model_name=CONFIG.export_base_model_name,
+    )
+
+    merged_model, merged_tokenizer = load_merged_export_model(export_paths["merged_dir"])
+
+    export_gguf_for_ollama(
+        model=merged_model,
+        tokenizer=merged_tokenizer,
+        export_root=output_dir,
         quantization=CONFIG.ollama_gguf_quantization,
     )
+
+    del test_trainer
+    del model
+    del merged_model
+    del trainer
+    del semantic_model
+    torch.cuda.empty_cache()
 
     LOGGER.info("Artifacts written to %s", output_dir)
 

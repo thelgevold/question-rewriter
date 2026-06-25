@@ -9,6 +9,7 @@ class TrainingConfig:
     output_model_prefix: str = "question-rewriter"
     base_model_slug: str = "qwen3-0.6b"
     base_model_name: str = "unsloth/Qwen3-0.6B-bnb-4bit"
+    export_base_model_name: str = "Qwen/Qwen3-0.6B"
     eval_split_ratio: float = 0.15
     max_seq_length: int = 2048
     per_device_train_batch_size: int = 2
@@ -25,6 +26,7 @@ class TrainingConfig:
     seed: int = 3407
     semantic_similarity_model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
     semantic_similarity_threshold: float = 0.92
+    export_validation_example_count: int = 3
     ollama_gguf_quantization: str = "Q4_K_M"
     log_level: str = "INFO"
 

@@ -37,7 +37,9 @@ array using this exact example shape:
 Training settings live in [`fine_tuning/config.py`](fine_tuning/config.py). Edit
 that config object when you want to change paths, model settings, or LoRA
 hyperparameters. The Ollama/GGUF quantization setting is controlled by
-`ollama_gguf_quantization`.
+`ollama_gguf_quantization`. The export merge step uses
+`export_base_model_name`, which defaults to the full-precision base model for
+the configured family.
 
 Use the helper script as the supported workflow:
 
@@ -84,3 +86,13 @@ By default this is `Q4_K_M`, so the fine-tuned Ollama model is exported in a
 `run-training.ps1` is also the supported path for creating the Ollama model.
 Its generated `Modelfile` points at the exported fine-tuned quantized `.gguf`
 file in the same output directory.
+
+## Demo
+
+After training creates the Ollama model, you can run the example in
+[`demo/`](demo/) to see a multi-turn rewrite request sent through the
+Docker-hosted Ollama runtime:
+
+```powershell
+.\run-demo.ps1
+```

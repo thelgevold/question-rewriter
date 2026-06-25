@@ -9,6 +9,7 @@ services:
     tty: true
 
   fine-tuning:
+    image: question-rewriter-runtime:latest
     build:
       context: .
       dockerfile: fine_tuning/Dockerfile
@@ -28,6 +29,24 @@ services:
     shm_size: "16gb"
     tty: true
     stdin_open: true
+
+  demo:
+    image: question-rewriter-runtime:latest
+    build:
+      context: .
+      dockerfile: fine_tuning/Dockerfile
+    container_name: question-rewriter-demo
+    working_dir: /workspace
+    depends_on:
+      - ollama
+    volumes:
+      - ./:/workspace
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_MODEL_NAME: question-rewriter-qwen3-0.6b
+      PYTHONUNBUFFERED: "1"
+    entrypoint: ["python", "-u", "demo/ollama_chat_demo.py"]
+    tty: true
 
 volumes:
   huggingface-cache:
