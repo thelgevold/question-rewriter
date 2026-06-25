@@ -1,6 +1,7 @@
 import os
 
-from llama_index.core import PromptTemplate, Settings
+from llama_index.core import Settings
+from llama_index.core.base.llms.types import ChatMessage, MessageRole
 from llama_index.llms.ollama import Ollama
 
 
@@ -51,13 +52,16 @@ def main() -> None:
         print(f"{message['role'].title()}: {message['content']}", flush=True)
 
     print("\nSending conversation to Ollama...", flush=True)
-    raw_prompt = (
-        f"<|im_start|>system\n{SYSTEM_PROMPT}<|im_end|>\n"
-        f"<|im_start|>user\n{build_user_prompt(conversation_thread)}<|im_end|>\n"
-        "<|im_start|>assistant\n"
+    response = Settings.llm_rewrite.chat(
+        [
+            ChatMessage(role=MessageRole.SYSTEM, content=SYSTEM_PROMPT),
+            ChatMessage(
+                role=MessageRole.USER,
+                content=build_user_prompt(conversation_thread),
+            ),
+        ]
     )
-
-    rewrite = Settings.llm_rewrite.predict(PromptTemplate(raw_prompt)).strip()
+    rewrite = response.message.content.strip()
     print(f"\nModel rewrite: {rewrite}", flush=True)
 
 

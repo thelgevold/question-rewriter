@@ -14,7 +14,7 @@ GGUF_FILENAME_PREFIX = "question-rewriter-"
 def _find_exported_gguf(export_root: Path, preferred_dir: Path) -> Path | None:
     direct_candidates = sorted(preferred_dir.glob("*.gguf"))
     if direct_candidates:
-        return direct_candidates[0]
+        return max(direct_candidates, key=lambda path: path.stat().st_mtime)
 
     recursive_candidates = sorted(
         candidate for candidate in export_root.rglob("*.gguf") if candidate.is_file()
@@ -76,6 +76,18 @@ def _get_canonical_gguf_path(export_root: Path, gguf_file: Path) -> Path:
     return export_root / filename
 
 
+def _remove_stale_gguf_artifacts(export_root: Path, gguf_dir: Path) -> None:
+    for artifact in gguf_dir.rglob("*.gguf"):
+        artifact.unlink(missing_ok=True)
+
+    for artifact in export_root.glob("*.gguf"):
+        artifact.unlink(missing_ok=True)
+
+    merged_gguf_dir = export_root / "merged_gguf"
+    if merged_gguf_dir.exists():
+        shutil.rmtree(merged_gguf_dir, ignore_errors=True)
+
+
 def _merge_adapter_into_full_precision_base(
     adapter_dir: Path,
     merged_dir: Path,
@@ -135,6 +147,7 @@ def save_adapter_and_merged(
 def export_gguf_for_ollama(model: Any, tokenizer: Any, export_root: Path, quantization: str) -> None:
     gguf_dir = export_root / "gguf"
     gguf_dir.mkdir(parents=True, exist_ok=True)
+    _remove_stale_gguf_artifacts(export_root, gguf_dir)
 
     LOGGER.info("Exporting GGUF model to %s with quantization %s", gguf_dir, quantization)
     model.save_pretrained_gguf(
